@@ -68,7 +68,7 @@ class SportCar: Car {
         super.init(color: color, mp3: mp3, transmission: transmission, km: km, doorState: doorState, trunk: trunk, trunkCapacity: trunkCapacity)
     }
     override func carsound() {
-        print("Rrrrr")
+        print("Pfff")
     }
 }
 
@@ -81,7 +81,7 @@ class AvtoVAZ: Car {
         super.init(color: color, mp3: mp3, transmission: transmission, km: km, doorState: doorState, trunk: trunk, trunkCapacity: trunkCapacity)
     }
     override func carsound() {
-        print("Pfff")
+        print("Rrrr")
     }
 }
 
@@ -95,3 +95,4 @@ print("Текущая загруженность багажника", (ladaKalin
 ladaKalina.carsound()
 porsche.carsound()
 
+//Функцию убрать / добавить Путина из машины не стал писать :))
