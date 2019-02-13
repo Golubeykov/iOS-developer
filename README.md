@@ -1,2 +1,0 @@
-# iOS-developer
-For HWs
